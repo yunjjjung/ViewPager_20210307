@@ -24,4 +24,6 @@ class MainViewPagerAdapter(fm : FragmentManager) : FragmentPagerAdapter(fm) {
 
     }
 
+    fun sumTwoNumber(num1: Int, num2: Int) = num1 + num2
+
 }
