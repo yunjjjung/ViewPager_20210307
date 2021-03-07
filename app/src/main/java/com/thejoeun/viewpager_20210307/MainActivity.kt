@@ -27,6 +27,9 @@ class MainActivity : BaseActivity() {
 
         mainViewPager.adapter = mvpa
 
+//        xml에 배치한 탭 레이아웃과 뷰페이져 연결
+        tabLayout.setupWithViewPager(mainViewPager)
+
     }
 
 
